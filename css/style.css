@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -49,13 +49,21 @@ body {
 }
 
 .contact-nav a {
-  margin: 0 25px;
+  margin: 0 25px 0 10px;
+}
+.contact-nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
 /* Navigation End Position */
 
 .main-box {
-  background: #2f303a;
+  background-image: url("../images/color_home.png"),
+    url("../images/background_home.jpg");
+  background-position: center;
+  background-size: cover;
   height: 600px;
 }
 
@@ -104,6 +112,7 @@ a {
 .link-contact:hover,
 .link-contact:active {
   color: #2196f3;
+  fill: #2196f3;
 }
 
 .marketing-slogan {
@@ -300,7 +309,6 @@ a {
 
 .flex-footer-container {
   display: flex;
-  flex-direction: column;
 }
 
 .logo-footer-container {
@@ -327,4 +335,108 @@ a {
   flex-wrap: wrap;
   gap: 30px;
   margin: 50px 0 94px;
+}
+
+.icon-header:hover,
+.icon-header:focus,
+.icon-header:active {
+  fill: #2196f3;
+}
+
+.icon-header {
+  fill: #757575;
+}
+
+.icon-box {
+  width: 70px;
+}
+
+.icon-box-style {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.icon-box-company {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-container {
+  margin-bottom: 94px;
+}
+
+.icon-company-flex {
+  width: 106px;
+  height: 60px;
+  display: flex;
+  fill: #757575;
+}
+
+.icon-box-company:hover,
+.icon-box-company:focus,
+.icon-box-company:active {
+  border: 1px solid #2196f3;
+  fill: #2196f3;
+}
+
+.footer-icon {
+  display: flex;
+}
+
+.footer-icon-flex {
+  display: flex;
+  gap: 10px;
+}
+
+.icon-social-media {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+
+.icon-social-media-button {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 20px;
+}
+
+.icon-social-media-button:hover,
+.icon-social-media-button:active,
+.icon-social-media-button:focus {
+  border-radius: 50%;
+  background-color: #2196f3;
+}
+
+.box-icon-social {
+  display: flex;
+  flex-direction: column;
+  margin-top: 72px;
+  margin-left: 70px;
+  width: 206px;
+  height: 80px;
+}
+
+.icon-text {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
